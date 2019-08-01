@@ -13,11 +13,11 @@ import java.util.Properties;
 public class PropertiesUtils {
 
     /**
-     * 加载property文件
+     * load property file
      *
-     * @param fileName 文件名，全路径
+     * @param fileName file name, full path
      * @return property
-     * @throws IOException IO异常
+     * @throws IOException IO exception
      */
     public static Properties readProperty(String fileName) throws IOException {
         Properties properties = null;

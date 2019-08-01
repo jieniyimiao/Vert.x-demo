@@ -40,7 +40,7 @@ public class CtripRest extends AbstractVerticle {
 
         String filePath = new ClassPathResource("application.properties").getAbsolutePath();
         Properties param = PropertiesUtils.readProperty(filePath);
-        String port = param.getProperty("server.port");
+        String port = param != null ? param.getProperty("server.port") : "8080";
 
         vertx.createHttpServer().requestHandler(router).listen(Integer.valueOf(port), handler -> {
             if (handler.succeeded()) {
