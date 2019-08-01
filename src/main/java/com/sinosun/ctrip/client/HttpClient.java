@@ -1,4 +1,4 @@
-package com.sinosun.train.client;
+package com.sinosun.ctrip.client;
 
 import io.vertx.ext.web.client.WebClient;
 

@@ -1,4 +1,4 @@
-package com.sinosun.train.util;
+package com.sinosun.ctrip.util;
 
 import java.io.File;
 import java.io.FileInputStream;

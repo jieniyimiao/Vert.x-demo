@@ -1,4 +1,4 @@
-package com.sinosun.train.dto;
+package com.sinosun.ctrip.dto;
 
 import com.alibaba.fastjson.PropertyNamingStrategy;
 import com.alibaba.fastjson.annotation.JSONField;

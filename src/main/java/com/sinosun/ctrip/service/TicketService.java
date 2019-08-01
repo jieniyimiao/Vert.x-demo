@@ -1,9 +1,8 @@
-package com.sinosun.train.service;
+package com.sinosun.ctrip.service;
 
 import com.alibaba.fastjson.JSONObject;
-import com.sinosun.train.client.CtripClient;
-import com.sinosun.train.controller.CtripRest;
-import com.sinosun.train.dto.GetTicketPriceReq;
+import com.sinosun.ctrip.client.CtripClient;
+import com.sinosun.ctrip.dto.GetTicketPriceReq;
 import io.vertx.core.http.HttpServerResponse;
 import io.vertx.core.json.JsonObject;
 import io.vertx.core.logging.Logger;
@@ -17,7 +16,7 @@ import org.joda.time.LocalDateTime;
  * @author caogu
  */
 public class TicketService {
-    private static Logger logger = LoggerFactory.getLogger(CtripRest.class);
+    private static Logger logger = LoggerFactory.getLogger(TicketService.class);
 
     public void handleGetTicketPrice(RoutingContext routingContext) {
         JsonObject reqDate = routingContext.getBodyAsJson();

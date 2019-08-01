@@ -1,11 +1,10 @@
-package com.sinosun.train.controller;
+package com.sinosun.ctrip.controller;
 
 import cn.hutool.core.io.resource.ClassPathResource;
-import com.google.common.io.Resources;
-import com.sinosun.train.client.HttpClient;
-import com.sinosun.train.service.TicketService;
-import com.sinosun.train.util.NetUtils;
-import com.sinosun.train.util.PropertiesUtils;
+import com.sinosun.ctrip.client.HttpClient;
+import com.sinosun.ctrip.service.TicketService;
+import com.sinosun.ctrip.util.NetUtils;
+import com.sinosun.ctrip.util.PropertiesUtils;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Vertx;
 import io.vertx.core.logging.Logger;
@@ -15,7 +14,6 @@ import io.vertx.ext.web.RoutingContext;
 import io.vertx.ext.web.client.WebClient;
 import io.vertx.ext.web.handler.BodyHandler;
 
-import java.io.File;
 import java.util.Properties;
 
 /**

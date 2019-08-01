@@ -1,4 +1,4 @@
-package com.sinosun.train.client;
+package com.sinosun.ctrip.client;
 
 import com.alibaba.fastjson.JSONObject;
 import io.vertx.core.buffer.Buffer;
