@@ -28,7 +28,7 @@ dependencies {
 	compile "cn.hutool:hutool-all:4.1.19"
 }
 
-mainClassName = 'com.sinosun.ctrip.controller.CtripRest'
+mainClassName = 'com.sinosun.ctrip.verticle.CtripRest'
 
 shadowJar {
 	classifier = 'fat'

@@ -1,4 +1,4 @@
-package com.sinosun.ctrip.controller;
+package com.sinosun.ctrip.verticle;
 
 import cn.hutool.core.io.resource.ClassPathResource;
 import com.sinosun.ctrip.client.HttpClient;
